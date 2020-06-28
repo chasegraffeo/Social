@@ -68,7 +68,7 @@ function Home() {
       <Card className="card" style={{ width: 600 }}>
         <Card.Body className="card-body d-flex justify-content-center text-warning bg-secondary" >
           <TiSocialInstagram size="30px" />
-          <a href="https://www.instagram.com/chasegraffeo/" className="d-flex justify-content-center text-warning" >
+          <a href="https://www.instagram.com/graffeophotos/" className="d-flex justify-content-center text-warning" >
             <h4> My Photography</h4>
           </a>
         </Card.Body>
