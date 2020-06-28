@@ -1,0 +1,29 @@
+#pic{
+    height: 250px;
+    width: 250px;
+}
+
+#projpic{
+    height: 400px;
+    width: 800px;
+}
+
+body{
+    background-color: grey;
+}
+ .card{
+     
+     
+     border-color: orange;
+     
+ }
+
+ #dropdown{
+    
+    color: #f9c712
+ }
+
+#item{
+    background-color: grey;
+    
+}
