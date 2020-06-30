@@ -55,7 +55,6 @@ function Home() {
       </Card>
     </Container>
     <br></br>
-
 </>
   );
 }
