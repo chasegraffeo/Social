@@ -22,13 +22,13 @@ function Navigation() {
       </Container>
 
       <NavDropdown title="More" id="dropdown">
-        <NavDropdown.Item className="text-warning" onClick={() => history.push("/")} id="item">
+        <NavDropdown.Item id="drop" className="text-warning" onClick={() => history.push("/")} id="item">
           HOME
         </NavDropdown.Item>
-        <NavDropdown.Item className="text-warning"  onClick={() => history.push("/Resume")} id="item">
+        <NavDropdown.Item id="drop" className="text-warning"  onClick={() => history.push("/Resume")} id="item">
           RESUME
         </NavDropdown.Item>
-        <NavDropdown.Item className="text-warning"  onClick={() => history.push("/Projects")} id="item">
+        <NavDropdown.Item id="drop" className="text-warning"  onClick={() => history.push("/Projects")} id="item">
           PROJECTS
         </NavDropdown.Item>
         
