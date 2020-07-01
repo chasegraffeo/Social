@@ -3,7 +3,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <div className=" col-md-8 main">
+    <div className=" col-md-6 main">
       <h1 className=" d-flex justify-content-center ">Projects</h1>
       <hr></hr>
       <img id="projpic" src={require("./Mim.png")}  alt=""></img>
