@@ -48,7 +48,7 @@ function Home() {
       <Card className="card" style={{ width: 600 }}>
         <Card.Body className="card-body d-flex justify-content-center text-warning bg-secondary  ">
           <TiDocumentText size="30px" />
-          <a onClick={() => history.push("/Resume")} href="" className="d-flex justify-content-center text-warning ">
+          <a onClick={() => history.push("/Resume")} href="..." className="d-flex justify-content-center text-warning ">
             <h4>Resume</h4>
           </a>
         </Card.Body>

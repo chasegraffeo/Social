@@ -1,9 +1,9 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
+//import Container from "react-bootstrap/Container";
 
 function Projects() {
   return (
-    <Container className="main">
+    <div className=" col-md-8 main">
       <h1 className=" d-flex justify-content-center ">Projects</h1>
       <hr></hr>
       <img id="projpic" src={require("./Mim.png")}  alt=""></img>
@@ -66,7 +66,7 @@ function Projects() {
         “chirps”.
       </p>
      
-    </Container>
+    </div>
   );
 }
 
