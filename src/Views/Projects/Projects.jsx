@@ -1,9 +1,29 @@
 import React from "react";
-//import Container from "react-bootstrap/Container";
+import Container from "react-bootstrap/Container";
+import { FaRebel } from "react-icons/fa";
+import Navbar from "react-bootstrap/Navbar";
+import Button from "react-bootstrap/Button";
+import { useHistory } from "react-router-dom";
 
 function Projects() {
+
+  const history = useHistory();
+
   return (
-    <div className=" col-md-6 main">
+    <>
+            <Navbar sticky="top" className="navbar navbar-light bg-dark ">
+      <Container className="main d-flex  justify-content-center">
+        <h1 className="navbar-brand mb-0 text-warning ml-5 ">
+          <FaRebel
+            size="30px"
+            className="border rounded-circle border-warning mr-2 mb-2"
+          />
+          Chase Graffeo
+        </h1>
+      </Container>
+        <Button onClick={() => history.push("/")} className="btn btn-warning">Home</Button>
+        </Navbar >
+    <Container className="main">
       <h1 className=" d-flex justify-content-center ">Projects</h1>
       <hr></hr>
       <img id="projpic" src={require("./Mim.png")}  alt=""></img>
@@ -66,7 +86,8 @@ function Projects() {
         “chirps”.
       </p>
      
-    </div>
+    </Container>
+    </>
   );
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Navigation from './Components/Navigation.jsx'
+
 import Resume from './Views/Resume/Resume.jsx';
 import Home from './Components/Home.jsx';
 import Projects from './Views/Projects/Projects.jsx';
@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
 
-      <Navigation />
+      
       <Switch>
 
         <Route exact path="/">
